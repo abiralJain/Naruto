@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Responsive Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|IBM+Plex+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.png" alt="Itachi Uchiha">
+        </div>
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Episodes</a></li>
+            <li class="item"><a href="#">About Us</a></li>
+            <li class="item"><a href="#">Others</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="primary">Welcome to Naruto Fandom</h1>
+        <p>Naruto (ナルト) is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of
+            Naruto Uzumaki, a young ninja who seeks to gain recognition from his peers and also dreams of becoming the
+            Hokage, the leader of his village.</p>
+        <button class="btn">Watch Now</button>
+    </section>
+    <!-- <hr> -->
+    <section class="services">
+        <h1 class="primary center hr">Our Servies</h1>
+        <div id="services">
+            <div class="box">
+                <img src="./narutoadult.png" alt="">
+                <h2 class="secondary center">Naruto Uzumaki</h2>
+                <p class="center">Naruto Uzumaki (うずまきナルト, Uzumaki Naruto) is a shinobi of Konohagakure's Uzumaki clan.
+                    He became the jinchūriki of the Nine-Tails on the day of his birth — a fate that caused him to be
+                    shunned by most of Konoha throughout his childhood. </p>
+            </div>
+            <div class="box">
+                <img src="./Itachi6.png" alt="">
+                <h2 class="secondary center">Itachi Uchiha</h2>
+                <p class="center">Itachi Uchiha (うちはイタチ, Uchiha Itachi) was a ninja of Konohagakure's Uchiha clan that
+                    served as an Anbu Captain. He later became an international criminal after murdering his entire
+                    clan, sparing only his younger brother, Sasuke.</p>
+            </div>
+            <div class="box">
+                <img src="./kakshi4.png" alt="">
+                <h2 class="secondary center">Kakashi Hatake</h2>
+                <p class="center">Kakashi Hatake (はたけカカシ, Hatake Kakashi) is a shinobi of Konohagakure's Hatake clan.
+                    Famed as Kakashi of the Sharingan (写輪眼のカカシ, Sharingan no Kakashi), he is one of Konoha's most
+                    talented ninja; regularly looked to for advice and leadership despite his personal dislike of
+                    responsibility.</p>
+            </div>
+        </div>
+    </section>
+    <!-- <hr> -->
+    <section class="client">
+        <h1 class="primary center">Our Favourites</h1>
+        <div class="clients">
+            <div class="clientitems">
+                <img src="./narutocrt.png" alt="Our Client">
+            </div>
+            <div class="clientitems">
+                <img src="./kakashi2s.png" alt="Our Client">
+            </div>
+            <div class="clientitems">
+                <img src="./Itachi2.png" alt="Our Client">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="primary center">Contact Us</h1>
+        <div id="contactbus">
+            <form action="">
+                <div class="formgroup">
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" id="name" placeholder="Enter you Name">
+                </div>
+                <div class="formgroup">
+                    <label for="email">Email :</label>
+                    <input type="email" name="name" id="email" placeholder="Enter you Email">
+                </div>
+                <div class="formgroup">
+                    <label for="Phone">Phone Number :</label>
+                    <input type="number" name="name" id="Phone" placeholder="Enter you Contact Number">
+                </div>
+                <div class="formgroup">
+                    <label for="message">Message :</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            copy &copy; www.MyFav.com All rights Reserved
+        </div>
+    </footer>
+</body>
+
+</html>
